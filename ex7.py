@@ -1,6 +1,6 @@
 #string*n repeat
 #end=''
-#string.format()
+#string.format()这里的string并非f-string
 print("玛丽有一只小羊羔。")
 print("它的羊毛白如{}.".format('雪'))
 print("并且玛丽所到之处,")
