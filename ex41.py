@@ -32,7 +32,7 @@ for word in urlopen(WORD_URL).readlines():
     WORDS.append(str(word.strip(),encoding="utf-8"))
 
 def convert(snippet,phrases):
-    #数组内赋值
+    #数组赋值时，组内操作
     #[a.func() for a in array]
     class_names=[w.capitalize() for w in
                  random.sample(WORDS,snippet.count("%%%"))]
