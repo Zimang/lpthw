@@ -13,6 +13,6 @@ config={
     'install_requires': ['nose'],
     'packages': ['NAME'],
     'scripts': [],
-    'name': 'skeleton'
+    'name': 'gothonweb'
 }
 setup(**config)

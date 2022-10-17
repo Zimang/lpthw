@@ -1,0 +1,12 @@
+{% extend "layout.html" %}
+{% block content %}
+
+<h1>填入你的信息</h1>
+<form action="/hello" method="post">
+  <input type="text" name="name" >
+  <br>
+  <input type="text" name="greeting">
+  <br>
+  <input type="submit">
+
+{% endblock %}
